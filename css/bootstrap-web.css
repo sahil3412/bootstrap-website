@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* BANNER */
+
+
+.banner .carousel-item h2{
+ font-family: 'Millenia Personal Use';
+ letter-spacing: 5px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+ width: 3%;
+ height: 25%;
+ background-color: rgba(2, 0, 0, 0.512);
+ top: 50%;
+ transform: translatey(-50%);
+}
+
+
+
+/* ABOUT */
+
+.btn{
+  background-color: #1ec6b6;
+  display: inline-block;
+  border: 1px solid transparent;
+  transition: 0.5s all;
+}
+
+.btn:hover {
+  background-color: #ff4a52;
+  border: 1px solid transparent;
+}
+
+.about-us .about {
+  background-color: #24292a;
+}
+
+.about-us .about .about-img img {
+  border-radius: 1rem 0 0 1rem;
+}
+
+.about-us .about .about-content {
+  padding: 0 40px;
+}
+
+/* POPULAR-DESTINATION */
+
+.popular-destination .popular-destination-main .popular-destination-item {
+  transition: 0.5s all;
+}
+
+.popular-destination .popular-destination-main .popular-destination-item:hover {
+  transform: translateY(-10px);
+  filter: drop-shadow(7px 7px 10px gray);
+}
+
+.popular-destination .popular-destination-main .popular-destination-item:hover .btn {
+  background-color: #ff4a52;
+  border: 1px solid transparent;
+  color: white;
+}
+
+.popular-destination .popular-destination-main .popular-destination-content p {
+  transition: 0.5s all;
+  color: white;
+}
+
+.popular-destination .popular-destination-main .popular-destination-item:hover p {
+  color: #ff4a52;
+}
+
+/* SUBSCRIBE */
+
+.subscribe {
+  background-image: url(../img/subscribe.webp);
+  background-size: cover;
+  background-position: center;
+
+}
+
+/* POPULAR PLACES */
+
+.Popular-Places .popular-place-item{
+  transition: 0.5s all;
+}
+
+.Popular-Places .popular-place-item:hover{
+  transform: translatey(-10px);
+  filter: drop-shadow(7px 7px 10px gray);
+}
+
+.Popular-Places .popular-place-item:hover .btn{
+  background-color: #ff4a52;
+  border: 1px solid transparent;
+  color: white;
+}
+
+.Popular-Places .popular-place-item:hover a{
+  transition: 0.5s all;
+}
+
+.Popular-Places .popular-place-item:hover a{
+  color: #ff4a52;
+}
+
+/* VIDEO */
+
+.video{
+  background-image: url(../img/video.webp);
+  background-size: cover;
+  padding: 190px 0;
+  font-family: 'Millenia Personal Use';
+}
+
+.video-btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background: #1ec6b6;
+  animation: pulse 1500ms infinite;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #1ec6b6;
+  }
+  100% {
+    box-shadow: 0 0 0 17px #fbb32f01;
+  }
+}
+
+/* RECENT-TRIPS */
+
+.recent-trip .recent-trip-content a,img{
+  transition: 0.5s all;
+}
+
+.recent-trip .recent-trip-item:hover img{
+  transform: translateY(-12px);
+  filter: drop-shadow(7px 7px 10px gray);
+}
+
+.recent-trip .recent-trip-item:hover a{
+  color: #ff4a52;
+}
+
+
+/* FOOTER */
+
